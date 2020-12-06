@@ -1,0 +1,161 @@
+{{{#!html
+
+  <h2>Gantt chart</h2>
+
+  <table style="border-collapse: collapse; border: 0px solid grey; text-align: center;">
+
+
+<!-- EDIT TABLE HEADER TO DEFINE APPROPRIATE PERIODS AND TIMEUNITS -->
+
+    <thead>   <!-- Table Header -->
+
+      <tr>    <!-- Periods -->
+
+        <!-- Empty first cell in header rows -->
+        <th style="background-color: transparent; border: 0px solid grey; padding: 0.50em"></th>
+
+        <!-- Periods: each period's colspan reflects the number of respective timeunits later in the code -->
+        <th colspan="2" style="background-color: #ffffcc; border: 1px solid grey; font-weight: bold; padding: 0.50em;"> 2020 </th>
+        <th colspan="4" style="background-color: #ffffcc; border: 1px solid grey; font-weight: bold; padding: 0.50em;"> 2021 </th>
+        <th colspan="2" style="background-color: #ffffcc; border: 1px solid grey; font-weight: bold; padding: 0.50em;"> 2022 </th>
+      </tr>
+
+      <tr>    <!-- Timeunits -->
+
+        <!-- Empty first cell in header rows -->
+        <th style="border-bottom: 1px solid grey;"> </th>
+
+        <!-- Period: 2020 -->      
+        <th style="background-color: #ffffcc; border: 1px solid grey; padding: 0.50em;"> Q3 </th>
+        <th style="background-color: #ffffcc; border: 1px solid grey; padding: 0.50em;"> Q4 </th>
+
+        <!-- Period: 2021 -->
+        <th style="background-color: #ffffcc; border: 1px solid grey; padding: 0.50em;"> Q1 </th>
+        <th style="background-color: #ffffcc; border: 1px solid grey; padding: 0.50em;"> Q2 </th>
+        <th style="background-color: #ffffcc; border: 1px solid grey; padding: 0.50em;"> Q3 </th>
+        <th style="background-color: #ffffcc; border: 1px solid grey; padding: 0.50em;"> Q4 </th>
+
+        <!-- Period: 2022 -->      
+        <th style="background-color: #ffffcc; border: 1px solid grey; padding: 0.50em;"> Q1 </th>
+        <th style="background-color: #ffffcc; border: 1px solid grey; padding: 0.50em;"> Q2 </th>
+
+      </tr>
+    </thead>
+
+    <tbody>
+
+<!-- THEN MODIFY THE TASK TEMPLATE BELOW TO MATCH YOUR DEFINED PERIODS AND TIMEUNITS -->
+
+<!-- TASK TEMPLATE -->
+      <!-- Task -->
+      <tr>
+
+        <!-- Task Name -->      
+        <td style="border: 1px solid grey; background-color: #ffffcc; font-weight: bold; padding: 0.50em; text-align: right;">
+          TaskName (see examples below)
+        </td>
+
+        <!-- Progress Bar -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2020: Q3 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2020: Q4 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2021: Q1 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2021: Q2 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2021: Q3 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2021: Q4 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2022: Q1 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2022: Q2 -->
+
+        <!-- Team Names (or other notes) -->
+        <td style="border: 1px solid grey; font-style: italic; background-color: #cccccc; padding: 0.50em; text-align: left;">
+          Name 1 / Name 2 / Name 3
+        </td>
+      </tr>
+<!-- END OF TASK TEMPLATE -->
+
+<!-- THEN USE IT (i.e. COPY-PASTE AND EDIT ACCORDINGLY) TO CREATE NEW 'TASK' ROWS -->
+<!-- HERE ARE SOME PRE-FILLED EXAMPLES -->
+
+
+
+      <!-- Task -->
+      <tr>
+
+        <!-- Task Name -->      
+        <td style="border: 1px solid grey; background-color: #ffffcc; font-weight: bold; padding: 0.50em; text-align: right;">
+          E.g. Design
+        </td>
+
+        <!-- Progress Bar -->
+        <td style="background-color: #0088ff; border: 1px solid grey;"></td> <!-- 2020: Q3 -->
+        <td style="background-color: #0088ff; border: 1px solid grey;"></td> <!-- 2020: Q4 -->
+        <td style="background-color: #0088ff; border: 1px solid grey;"></td> <!-- 2021: Q1 -->
+        <td style="background-color: #0088ff; border: 1px solid grey;"></td> <!-- 2021: Q2 -->
+        <td style="background-color: #0088ff; border: 1px solid grey;"></td> <!-- 2021: Q3 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2021: Q4 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2022: Q1 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2022: Q2 -->
+
+        <!-- Team Names (or other notes) -->
+        <td style="border: 1px solid grey; font-style: italic; background-color: #cccccc; padding: 0.50em; text-align: left;">
+          Design Team (John &amp; Alice)
+        </td>
+      </tr>
+
+
+
+      <!-- Task -->
+      <tr>
+
+        <!-- Task Name -->      
+        <td style="border: 1px solid grey; background-color: #ffffcc; font-weight: bold; padding: 0.50em; text-align: right;">
+          E.g. Develop
+        </td>
+
+        <!-- Progress Bar -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2020: Q3 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2020: Q4 -->
+        <td style="background-color: #ff8800; border: 1px solid grey;"></td> <!-- 2021: Q1 -->
+        <td style="background-color: #ff8800; border: 1px solid grey;"></td> <!-- 2021: Q2 -->
+        <td style="background-color: #ff8800; border: 1px solid grey;"></td> <!-- 2021: Q3 -->
+        <td style="background-color: #ff8800; border: 1px solid grey;"></td> <!-- 2021: Q4 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2022: Q1 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2022: Q2 -->
+
+        <!-- Team Names (or other notes) -->
+        <td style="border: 1px solid grey; font-style: italic; background-color: #cccccc; padding: 0.50em; text-align: left;">
+          Development Team (Sarah &amp; Matt)
+        </td>
+      </tr>
+
+
+
+      <!-- Task -->
+      <tr>
+
+        <!-- Task Name -->      
+        <td style="border: 1px solid grey; background-color: #ffffcc; font-weight: bold; padding: 0.50em; text-align: right;">
+          E.g. Testing
+        </td>
+
+        <!-- Progress Bar -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2020: Q3 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2020: Q4 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2021: Q1 -->
+        <td style="background-color: #______; border: 1px solid grey;"></td> <!-- 2021: Q2 -->
+        <td style="background-color: #88cc44; border: 1px solid grey;"></td> <!-- 2021: Q3 -->
+        <td style="background-color: #88cc44; border: 1px solid grey;"></td> <!-- 2021: Q4 -->
+        <td style="background-color: #88cc44; border: 1px solid grey;"></td> <!-- 2022: Q1 -->
+        <td style="background-color: #88cc44; border: 1px solid grey;"></td> <!-- 2022: Q2 -->
+
+        <!-- Team Names (or other notes) -->
+        <td style="border: 1px solid grey; font-style: italic; background-color: #cccccc; padding: 0.50em; text-align: left;">
+          Testing Team (Scott, George &amp; Crystal)
+        </td>
+      </tr>
+
+
+
+      <!-- End of Tasks -->
+    </tbody>
+  </table>
+}}}
